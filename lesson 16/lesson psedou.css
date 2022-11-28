@@ -1,0 +1,68 @@
+ol {
+  background-color: rgb(233, 98, 98);
+  color: black;
+  height: 1000px;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+li {
+  margin: 20px;
+}
+
+ol li:first-child {
+  font-size: 36px;
+}
+
+ol li:last-child {
+  color: yellow;
+}
+
+ol li:nth-child(even) {
+  background-color: brown;
+}
+
+ol li:nth-child(odd) {
+  background-color: chartreuse;
+}
+
+ol li:nth-child(9) {
+  text-transform: uppercase;
+  text-decoration: underline;
+  top: 400px;
+  left: 80%;
+  position: fixed;
+}
+
+ol li:nth-child(8) {
+  text-transform: uppercase;
+  text-decoration: underline;
+  top: 500px;
+  left: 80%;
+  position: sticky;
+  width: 200px;
+}
+
+.div {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  width: 90%;
+  height: 100px;
+  text-align: center;
+  position: relative;
+  position: fixed;
+}
+
+.div-child {
+  position: absolute;
+  background-color: blue;
+  border: 2px solid green;
+  width: 20%;
+  height: 20%;
+  border-radius: 10px;
+  padding: 20px;
+  top: 0;
+  right: 0;
+  margin: 20px;
+}
